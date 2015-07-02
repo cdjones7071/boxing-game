@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+header{
+	font-size: 40px;
+	border: solid 2px silver;
+	padding: 10px;
+	height: 40vh;
+	background:tan;
+	color:#455892;
+
+}
+
+nav {
+	height: 33vh;
+	color: #455892;
+	font-size:22px;
+	margin-top: 10px;
+}
+box1{
+	display:inline-block;
+	color: #971717;
+	font-size: 20px;
+}
+
+box2{
+	display:inline-block;
+	color: #971717;
+	font-size: 20px;
+}
+
+box3{
+	display:inline-block;
+	color: #971717;
+	font-size: 20px;
+}
+
+box4{
+	display:inline-block;
+	color: #971717;
+	font-size: 20px;
+}
+
+

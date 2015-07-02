@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="boxinggame.css" />
+<title> Coach these Bums to greatness!</title>
+</head>
+<body>
+	
+
+
+
+	<div>
+
+
+		<header>Coach these Bums to greatness!</header>
+
+		<nav>
+			punches: <span id="punches">0</span>
+			<br />
+			Punches Per Second: <span id="SPS" >0</span>
+
+		</nav>
+
+		<left>
+
+		</left>
+
+		<prices>
+
+			
+			<box1 id = "price">Swamers Cost:<span id="swamerCost">10</span></box1>
+			
+			
+			
+			<box2 id = "price">Out-Boxer Cost:<span id="outboxerCost">50</span></box2>
+			
+			
+			
+			<box3 id = "price">Boxer Puncher Cost:<span id="boxerpuncherCost">100</span></box3>
+			
+			
+			
+			<box4 id = "price">Slugger Cost:<span id ="sluggerCost">200</span></box4>
+
+
+
+		</prices>
+
+		<main >
+			<img title = "Click Me!" id="punch" src="boxer.jpg" onclick="userClick(1)">
+			
+		</main>
+
+		<right>
+			<box1>
+
+				<img id="swarmer1" src="swarmer.png" onclick="buySwarmer()">
+				<span id="swarmer">0</span>
+				
+			</box1>
+
+			<box2>
+				<img id="outboxer1" src="outboxer.png" onclick="buyoutboxer()" >
+				<span id="outboxer">0</span>
+			</box2>
+
+			<box3>
+				<img id="boxerpuncher1" src="puncher.png" onclick="buyboxerpuncher()" >
+				<span id="boxerpuncher">0</span>
+			</box3>
+
+			<box4>
+				<img id="slugger1" src="slugger.png" onclick="buyslugger()" >
+				<span id="slugger">0</span>
+			</box4>
+
+			
+			 
+			
+			
+			
+
+		</right>
+		
+		<bottom>
+			<h1> Options!</h1>
+			<img id = "save1" src="save.png" onclick="save()">
+			<img id = "load1" src="load.png" onclick="load()">
+			<img id = "delete1" src="delete.png" onclick="deleteSave()">
+
+
+
+		</bottom>
+</body>
+
+	<body onload = "load()">
+	<script src="libs/jquery.js"></script>
+	<script src="libs/handlebars.js"></script>
+	<script src="libs/underscore.js"></script>
+	<script type="text/javascript" src="boxinggame.js"></script>
+
+
+</html>
